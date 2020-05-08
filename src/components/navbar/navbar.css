@@ -1,0 +1,15 @@
+nav ul li a {
+    color: black!important;
+}
+
+nav li a:hover {
+    color: #ff6600 !important;
+}
+
+.selected a {
+    color: #ff6600 !important;
+}
+
+.brand-logo {
+    color: #ff6600 !important;
+}
