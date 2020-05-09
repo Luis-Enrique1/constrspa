@@ -1,0 +1,37 @@
+.carousel {
+    margin-top: 120px;
+    margin-bottom: 20px;
+    overflow: visible !important;
+}
+
+div .carousel {
+    overflow: visible !important;
+}
+
+.carousel img {
+    width: 100%;
+}
+
+.carousel h1 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #ff6600 !important;
+}
+
+.carousel a {
+    background: #ff6600 !important;
+}
+
+@media (max-width: 600px) {
+    .carousel {
+        margin-top: 20px;
+        margin-bottom: 100px;
+        height: 900px;
+        overflow: visible !important;
+    }
+    .carousel .col {
+        text-align: center;
+        margin-bottom: 20px;
+        overflow: visible !important;
+    }
+  }

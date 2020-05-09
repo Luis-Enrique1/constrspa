@@ -4,12 +4,14 @@ nav ul li a {
 
 nav li a:hover {
     color: #ff6600 !important;
+    font-weight: 500;
 }
 
 .selected a {
     color: #ff6600 !important;
 }
 
-.brand-logo {
+.brand-logo,
+.sidenav-trigger {
     color: #ff6600 !important;
 }
