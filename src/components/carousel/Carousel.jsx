@@ -7,8 +7,12 @@ import { Link } from 'react-router-dom';
 
 class Carousel extends Component {
   componentDidMount() {
-    var elem = document.querySelector('.carousel');
-    M.Carousel.init(elem, { duration: 200, fullWidth: true });
+    const elem = document.querySelector('.carousel');
+    const options = {
+      fullWidth: true, 
+      duration: 200,
+  };
+    M.Carousel.init(elem, options);
   }
 
   render() {
@@ -20,7 +24,7 @@ class Carousel extends Component {
                   <div className="col m6">
                     <img src={slider1} alt="slider1"/>
                   </div>
-                  <div className="col m6">
+                  <div className="col m6 texto">
                     <h1>Construcciones y Obras Civíles</h1>
                     <p>Realizamos el trabajo que usted necesite a su medida</p>
                     <Link className="waves-effect waves-light btn" to="/contact">Contáctenos</Link>

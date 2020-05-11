@@ -2,16 +2,23 @@ nav ul li a {
     color: black!important;
 }
 
-nav li a:hover {
-    color: #ff6600 !important;
-    font-weight: 500;
+nav .btn {
+    color: white!important;
+    background-color: #ff6600!important;
 }
 
-.selected a {
-    color: #ff6600 !important;
+nav .btn:hover {
+    background-color: #ff6600;
 }
 
-.brand-logo,
-.sidenav-trigger {
-    color: #ff6600 !important;
+.brand-logo img {
+    padding-top: 20%;
+}
+
+div .pt {
+    padding-top: 30px;
+}
+
+.sidenav {
+    z-index: 10;
 }

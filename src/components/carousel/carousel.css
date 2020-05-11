@@ -2,6 +2,7 @@
     margin-top: 120px;
     margin-bottom: 20px;
     overflow: visible !important;
+    margin-bottom: 0px;
 }
 
 div .carousel {
@@ -18,20 +19,62 @@ div .carousel {
     color: #ff6600 !important;
 }
 
-.carousel a {
+.carousel .btn {
     background: #ff6600 !important;
 }
 
+
+
+
+/* media querys */
+
 @media (max-width: 600px) {
     .carousel {
-        margin-top: 20px;
-        margin-bottom: 100px;
-        height: 900px;
+        margin-top: 50px;
+        padding-top: 50px;
         overflow: visible !important;
+        height: 100%;
+        margin-bottom: 200px;
     }
-    .carousel .col {
+
+    .carousel .col .m6 {
         text-align: center;
-        margin-bottom: 20px;
         overflow: visible !important;
+        height: 100%;
+    }
+
+    .carousel .active {
+        overflow: visible!important;
+    }
+
+    div .carousel h1 {
+        margin: 0;
+    }
+
+    .carousel img {
+        width: 85%;
+    }
+  }
+
+  @media (max-width: 515px) {
+    .carousel {
+        margin-top: 50px;
+        padding-top: 50px;
+        overflow: visible !important;
+        height: 100%;
+    }
+
+    .carousel .col .m6 {
+        text-align: center;
+        overflow: visible !important;
+        height: 100%;
+    }
+
+    .carousel .active {
+        overflow: visible!important;
+    }
+
+    div .carousel h1 {
+        margin: 0;
     }
   }

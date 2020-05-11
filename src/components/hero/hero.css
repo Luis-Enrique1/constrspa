@@ -1,0 +1,42 @@
+h1 {
+    color: white;
+    font-size: 50px!important;
+    font-weight: 500!important;
+    margin-top: 0!important;
+}
+
+.hero p {
+    padding-top: 160px;
+    color: white;
+    margin-bottom: 0!important;
+}
+
+.hero .a {
+    color: black!important;
+    margin-right: 5px;
+}
+
+.hero .b {
+    background-color: #ff6600!important;
+    margin-left: 5px;
+}
+
+.hero {
+    position: relative;
+    background-image: url('./photo-of-skyscrapers-surrounded-with-clouds-1437493.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-position-x: initial;
+    height: 630px;
+    border-bottom: #333 solid 1px;
+}
+
+.overlay {
+    background: #00000065;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
