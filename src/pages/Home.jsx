@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 
-import Carousel from '../components/carousel/Carousel.jsx';
+// import Carousel from '../components/carousel/Carousel.jsx';
 import Section from '../components/section/Section.jsx';
+import Section2 from '../components/section2/Section2.jsx';
+import Section3 from '../components/section3/Section3.jsx';
 import Hero from '../components/hero/Hero.jsx'
 import Sidenav from '../components/sidenav/Sidenav.jsx'
 import Footer from '../components/footer/Footer.jsx'
@@ -12,8 +14,10 @@ class Home extends Component {
       <div>
         <Hero />
         <Sidenav />
-        <Carousel />
+        {/* <Carousel /> */}
         <Section />
+        <Section2 />
+        <Section3 />
         <Footer />
         {/* <Section2 /> */}
 

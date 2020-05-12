@@ -1,15 +1,24 @@
 import React, { Component } from 'react'
 import './section2.css'
-// import section2 from './section2.png'
 
-class Section2 extends Component {
+
+class Section extends Component {
     render() {
         return (
             <section className="section2">
-                {/* <img src={section2} alt=""/> */}
+                <div className="overlay3">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col offset-m2 m8 center flow-text">
+                                <h3>LOREM IPSUM</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam tenetur totam vel, iusto vitae voluptatibus mollitia dignissimos exercitationem dolorum, expedita ducimus laudantium officia enim itaque dolore impedit ab in commodi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
         )
     }
 }
 
-export default Section2
+export default Section

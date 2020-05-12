@@ -1,31 +1,19 @@
 .section {
-    /* background-color: #0000000a; */
-    margin-top: 140px;
-    /* padding-top: 90px; */
+    background-image: url("high-rise-buildings-under-blue-sky-during-daytime-163684.jpg");
+    background-size: cover;
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
-.section img {
+.overlay2 {
+    background: #d3d3d3c5;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    /* align-self: center; */
-}
-
-.section .content-left {
-    padding-right: 40px;
-    text-align: right;
-}
-
-.section .content-right {
-    padding-left: 40px;
-
-}
-
-.section h2 {
-    font-size: 22px;
-    color: #ff6600;
-    font-weight: 600;
-    padding-top: 0;
-}
-
-.section p {
-    font-size: 15px;
+    height: 100%;
+    overflow: hidden;
 }
