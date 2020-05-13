@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './section3.css'
 
-class Section extends Component {
+class Section3 extends Component {
     render() {
         return (
             <section className="section">
@@ -19,4 +19,4 @@ class Section extends Component {
     }
 }
 
-export default Section
+export default Section3

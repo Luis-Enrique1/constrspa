@@ -1,0 +1,29 @@
+.hero2 {
+    background-image: url("../section2/low-angle-photo-of-four-high-rise-curtain-wall-buildings-8308912.jpg");
+    background-size: cover;
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.overlay3 {
+    background: #69010183;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.hero2 h3 {
+    color: white;
+    padding-top: 100px;
+}
+
+.hero2 p {
+    color: white;
+    font-size: 20px;
+}

@@ -6,27 +6,16 @@ import icon from './icon.png'
 
 class Navbar extends Component {
   componentDidMount() {
-    let location = window.location.href;
-
-    if(location === 'http://localhost:3000/') {
-      document.querySelectorAll('#link').forEach(element => {
-        if (element.style !== "color:white!important") {
-          element.style = "color:white!important"
-        }
-      })
-    } else {
-      document.querySelectorAll('#link').forEach(element => {
-        if (element.style === "color:white!important") {
-          element.style = ""
-        }
-      })
-    }
-
     var element = document.querySelectorAll('.sidenav')
     M.Sidenav.init(element)
+    
+    document.querySelectorAll('#link').forEach(element => {
+      if (element.style !== "color:white!important") {
+        element.style = "color:white!important"
+      }
+    })
 
     document.addEventListener("scroll", () => {
-      let location = window.location.href;
       if (window.scrollY > 100) {
         document.querySelectorAll('#link').forEach(element => {
           if (element.style !== "") {
@@ -44,13 +33,12 @@ class Navbar extends Component {
               nav.className = 'transparent'
           }
 
-          if(location === 'http://localhost:3000/') {
-            document.querySelectorAll('#link').forEach(element => {
-              if (element.style !== "color:white!important") {
-                element.style = "color:white!important"
-              }
-            })
-          }
+          document.querySelectorAll('#link').forEach(element => {
+            if (element.style !== "color:white!important") {
+              element.style = "color:white!important"
+            }
+          })
+          
         }
     })
   }
@@ -61,7 +49,7 @@ class Navbar extends Component {
           <nav className="transparent" id="nav">
               <div className="nav-wrapper container">
               <Link to="/" className="brand-logo"><img src={icon} alt="logo" width="40" /></Link>
-              <Link to="##" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></Link>
+              <Link to="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></Link>
               <ul className="right hide-on-med-and-down">
                   <li><Link id="link" to="/">Inicio</Link></li>
                   <li><Link id="link" to="/contact">Contacto</Link></li>

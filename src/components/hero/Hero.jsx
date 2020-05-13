@@ -15,8 +15,8 @@ class Hero extends Component {
                                 <div className="flow-text">
                                     <p>Bienvenido a:</p>
                                     <h1>Construcciones C&E</h1>
-                                    <Link class="waves-effect waves-light btn-small white a" to="/about">Conócenos</Link>
-                                    <Link class="waves-effect waves-light btn-small b" to="contact">Contáctanos</Link>
+                                    <Link className="waves-effect waves-light btn-small white a" to="/about">Conócenos</Link>
+                                    <Link className="waves-effect waves-light btn-small b" to="contact">Contáctanos</Link>
                                 </div>
                             </div>
                         </div>
