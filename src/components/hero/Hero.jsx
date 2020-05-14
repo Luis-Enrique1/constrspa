@@ -16,7 +16,7 @@ class Hero extends Component {
                                     <p>Bienvenido a:</p>
                                     <h1>Construcciones C&E</h1>
                                     <Link className="waves-effect waves-light btn-small white a" to="/about">Conócenos</Link>
-                                    <Link className="waves-effect waves-light btn-small b" to="contact">Contáctanos</Link>
+                                    <Link className="waves-effect waves-light btn-small b pulse" to="contact">Contáctanos</Link>
                                 </div>
                             </div>
                         </div>

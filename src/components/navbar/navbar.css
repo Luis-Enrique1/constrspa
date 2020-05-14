@@ -1,5 +1,5 @@
 nav ul li a {
-    color: black!important;
+    color: white!important;
     font-weight: 500;
 }
 
@@ -22,4 +22,8 @@ div .pt {
 
 .sidenav {
     z-index: 10;
+}
+
+.sidenav-trigger {
+    color: #ff6600;
 }

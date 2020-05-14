@@ -9,6 +9,10 @@ import Sidenav from '../components/sidenav/Sidenav.jsx'
 import Footer from '../components/footer/Footer.jsx'
 
 class Home extends Component {
+  componentWillMount() {
+    window.scroll({top:0})
+  }
+
   render() {
     return (
       <div>

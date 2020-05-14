@@ -17,9 +17,9 @@ class Navbar extends Component {
 
     document.addEventListener("scroll", () => {
       if (window.scrollY > 100) {
-        document.querySelectorAll('#link').forEach(element => {
-          if (element.style !== "") {
-            element.style = ""
+        document.querySelectorAll('#link').forEach(link => {
+          if (link.style !== "color:black!important") {
+            link.style = "color:black!important;"
           }
         })
         const nav = document.getElementById('nav')
@@ -27,15 +27,20 @@ class Navbar extends Component {
           nav.className = 'white'
         }
       } else {
+        // da problemas aveces al cargar la página
+        // cannot get property classname of null nav
           const nav = document.getElementById('nav')
-          // console.log(location);
-          if(nav.className !== 'transparent') {
+          if (nav) {
+            if(nav.className !== 'transparent') {
               nav.className = 'transparent'
+            }
+          } else {
+            console.log('nav?')
           }
 
-          document.querySelectorAll('#link').forEach(element => {
-            if (element.style !== "color:white!important") {
-              element.style = "color:white!important"
+          document.querySelectorAll('#link').forEach(link => {
+            if (link.style !== "color:white!important") {
+              link.style = "color:white!important"
             }
           })
           

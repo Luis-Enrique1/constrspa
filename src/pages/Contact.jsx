@@ -5,6 +5,10 @@ import Hero2 from '../components/hero2/Hero2.jsx';
 import Sidenav from '../components/sidenav/Sidenav.jsx'
 
 class Contact extends Component {
+  componentWillMount() {
+    window.scroll({top:0})
+  }
+
   render() {
     return (
       <div>        
