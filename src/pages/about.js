@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Hero2 from '../components/hero2/hero2.jsx';
-import Footer from '../components/footer/footer.jsx'
-import Sidenav from '../components/sidenav/sidenav.jsx'
+import Hero2 from '../components/hero2/hero2.js';
+import Footer from '../components/footer/footer.js'
+import Sidenav from '../components/sidenav/sidenav.js'
 
 class About extends Component {
   componentWillMount() {

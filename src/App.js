@@ -6,8 +6,8 @@ import './App.css';
 import 'materialize-css/dist/css/materialize.css'
 
 // const Home = React.lazy(() => import('./pages/home.jsx'));
-const Contact = React.lazy(() => import('./pages/contact.jsx'));
-const About = React.lazy(() => import('./pages/about.jsx'));
+const Contact = React.lazy(() => import('./pages/contact.js'));
+const About = React.lazy(() => import('./pages/about.js'));
 
 function App() {
   return (

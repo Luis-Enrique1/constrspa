@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './hero2.css'
-import Navbar from '../navbar/navbar.jsx'
+import Navbar from '../navbar/navbar.js'
 
 class Hero2 extends Component {
     render() {

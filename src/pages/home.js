@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
 // import Carousel from '../components/carousel/Carousel.jsx';
-import Section from '../components/section/section.jsx';
-import Section2 from '../components/section2/section2.jsx';
-import Section3 from '../components/section3/section3.jsx';
-import Hero from '../components/hero/hero.jsx'
-import Sidenav from '../components/sidenav/sidenav.jsx'
-import Footer from '../components/footer/footer.jsx'
+import Section from '../components/section/section.js';
+import Section2 from '../components/section2/section2.js';
+import Section3 from '../components/section3/section3.js';
+import Hero from '../components/hero/hero.js'
+import Sidenav from '../components/sidenav/sidenav.js'
+import Footer from '../components/footer/footer.js'
 
 class Home extends Component {
   componentWillMount() {

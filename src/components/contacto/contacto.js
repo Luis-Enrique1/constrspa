@@ -17,11 +17,13 @@ class Contacto extends Component {
   render() {
     return (
         <div className="row">
-            <div className="col m6 s12">
-                <h2>Contacto</h2>
+            <div className="col m6 s12 fondo">
+              <div className="contacto">
+              <h2>Contacto</h2>
                 <p>Email: email@gmail.com</p>
                 <p>Telefono: 12345678</p>
-                <hr className="lefthr"/>
+                <hr className=""/>
+              </div>
             </div>
             <div className="col m6 s12">
                 <div className="carousel center carousel2">

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Contacto from '../components/contacto/contacto.jsx'
-import Footer from '../components/footer/footer.jsx'
-import Hero2 from '../components/hero2/hero2.jsx';
-import Sidenav from '../components/sidenav/sidenav.jsx'
+import Contacto from '../components/contacto/contacto.js'
+import Footer from '../components/footer/footer.js'
+import Hero2 from '../components/hero2/hero2.js';
+import Sidenav from '../components/sidenav/sidenav.js'
 
 class Contact extends Component {
   componentWillMount() {
@@ -22,9 +22,9 @@ class Contact extends Component {
       <div>        
         <Sidenav />
         <Hero2 />
-        <div className="container">
+        {/* <div className="container"> */}
             <Contacto />
-        </div>
+        {/* </div> */}
         <Footer />
 
       </div>
