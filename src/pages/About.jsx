@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Hero2 from '../components/hero2/Hero2.jsx';
-import Footer from '../components/footer/Footer.jsx'
-import Sidenav from '../components/sidenav/Sidenav.jsx'
+import Hero2 from '../components/hero2/hero2.jsx';
+import Footer from '../components/footer/footer.jsx'
+import Sidenav from '../components/sidenav/sidenav.jsx'
 
 class About extends Component {
   componentWillMount() {
@@ -18,8 +18,8 @@ class About extends Component {
   render() {
     return (
       <div>
-        <Hero2 />
         <Sidenav />
+        <Hero2 />
         <div className="container">
           <h2>Welcome</h2>
           <p>

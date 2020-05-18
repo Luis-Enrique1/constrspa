@@ -1,23 +1,23 @@
 import React, { Suspense } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Home from './pages/Home.jsx';
+// import ReactGA from 'react-ga';
+import { Route } from 'react-router-dom';
+import Home from './pages/home.js';
 import './App.css';
 import 'materialize-css/dist/css/materialize.css'
 
-const Contact = React.lazy(() => import('./pages/Contact'));
-const About = React.lazy(() => import('./pages/About'));
+// const Home = React.lazy(() => import('./pages/home.jsx'));
+const Contact = React.lazy(() => import('./pages/contact.jsx'));
+const About = React.lazy(() => import('./pages/about.jsx'));
 
 function App() {
   return (
-    <Router>
       <div>
-        <Suspense fallback={<div className="progress"><div className="indeterminate"></div></div>}>
           <Route exact path="/" component={Home}/>
-          <Route path="/contact" component={Contact}/>
-          <Route path="/about" component={About}/>
-        </Suspense>
+          <Suspense fallback={<div className="progress"><div className="indeterminate"></div></div>}>
+            <Route exact path="/contact" component={Contact}/>
+            <Route exact path="/about" component={About}/>
+          </Suspense>
       </div>
-  </Router>
   );
 }
 

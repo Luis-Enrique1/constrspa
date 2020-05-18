@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Navbar from '../navbar/Navbar.jsx'
+import Navbar from '../navbar/navbar.jsx'
 import { Link } from 'react-router-dom'
 import './hero.css'
 
