@@ -18,12 +18,3 @@ div h2 {
     /* text-shadow: 1px 2px 2px #ff6600; */
 }
 
-div hr {
-    width: 100px;
-    display: block;
-    border: 1px solid #ff6600;
-}   
-
-div .lefthr {
-    margin-left: 0%!important;
-}

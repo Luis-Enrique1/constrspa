@@ -60,7 +60,7 @@ class Navbar extends Component {
                   <li><Link id="link" to="/contact">Contacto</Link></li>
                   <li><Link id="link" to="/about">Acerca de Nosotros</Link></li>
                   <li>
-                    <Link className="waves-effect waves-light btn" to="/contact">Contáctenos</Link>
+                    <Link className="waves-effect waves-light btn" to="/contact">Contáctanos</Link>
                   </li>
               </ul>
               </div>

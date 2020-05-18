@@ -6,7 +6,14 @@ import Sidenav from '../components/sidenav/Sidenav.jsx'
 class About extends Component {
   componentWillMount() {
     window.scroll({top:0})
+    // let overlay = document.querySelector(".sidenav-overlay")
+    // if (overlay) {
+    //   overlay.className = ""
+    // }
   }
+
+  // componentDidMount() {
+  // }
 
   render() {
     return (

@@ -7,7 +7,15 @@ import Sidenav from '../components/sidenav/Sidenav.jsx'
 class Contact extends Component {
   componentWillMount() {
     window.scroll({top:0})
+    // let overlay = document.querySelector(".sidenav-overlay")
+    // if (overlay) {
+    //   overlay.className = ""
+    // }
   }
+
+  // componentDidMount() {
+  //   document.querySelector(".sidenav-overlay").className = ""
+  // }
 
   render() {
     return (
