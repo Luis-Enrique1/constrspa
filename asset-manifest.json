@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/constrspa/static/css/main.b7364847.chunk.css",
-    "main.js": "/constrspa/static/js/main.220fb861.chunk.js",
-    "main.js.map": "/constrspa/static/js/main.220fb861.chunk.js.map",
+    "main.js": "/constrspa/static/js/main.52936d91.chunk.js",
+    "main.js.map": "/constrspa/static/js/main.52936d91.chunk.js.map",
     "runtime-main.js": "/constrspa/static/js/runtime-main.194ced72.js",
     "runtime-main.js.map": "/constrspa/static/js/runtime-main.194ced72.js.map",
     "static/css/2.9dff4bae.chunk.css": "/constrspa/static/css/2.9dff4bae.chunk.css",
-    "static/js/2.1627d748.chunk.js": "/constrspa/static/js/2.1627d748.chunk.js",
-    "static/js/2.1627d748.chunk.js.map": "/constrspa/static/js/2.1627d748.chunk.js.map",
+    "static/js/2.605595db.chunk.js": "/constrspa/static/js/2.605595db.chunk.js",
+    "static/js/2.605595db.chunk.js.map": "/constrspa/static/js/2.605595db.chunk.js.map",
     "index.html": "/constrspa/index.html",
-    "precache-manifest.c1bc90061dd214984ded82b7c6999401.js": "/constrspa/precache-manifest.c1bc90061dd214984ded82b7c6999401.js",
+    "precache-manifest.449c148e18b66c485de74cfa17292f14.js": "/constrspa/precache-manifest.449c148e18b66c485de74cfa17292f14.js",
     "service-worker.js": "/constrspa/service-worker.js",
     "static/css/2.9dff4bae.chunk.css.map": "/constrspa/static/css/2.9dff4bae.chunk.css.map",
     "static/css/main.b7364847.chunk.css.map": "/constrspa/static/css/main.b7364847.chunk.css.map",
-    "static/js/2.1627d748.chunk.js.LICENSE.txt": "/constrspa/static/js/2.1627d748.chunk.js.LICENSE.txt",
+    "static/js/2.605595db.chunk.js.LICENSE.txt": "/constrspa/static/js/2.605595db.chunk.js.LICENSE.txt",
     "static/media/section.css": "/constrspa/static/media/high-rise-buildings-under-blue-sky-during-daytime-1636842.226bc7a0.jpg",
     "static/media/icon.png": "/constrspa/static/media/icon.ca64e41b.png",
     "static/media/section2.css": "/constrspa/static/media/low-angle-photo-of-four-high-rise-curtain-wall-buildings-8308912.e465c7af.jpg",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.194ced72.js",
     "static/css/2.9dff4bae.chunk.css",
-    "static/js/2.1627d748.chunk.js",
+    "static/js/2.605595db.chunk.js",
     "static/css/main.b7364847.chunk.css",
-    "static/js/main.220fb861.chunk.js"
+    "static/js/main.52936d91.chunk.js"
   ]
 }
