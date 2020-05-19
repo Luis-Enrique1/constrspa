@@ -6,6 +6,7 @@ nav ul li a {
 nav .btn {
     color: white!important;
     background-color: #ff6600!important;
+    text-shadow: 1px 1px 1px black;
 }
 
 nav .btn:hover {

@@ -17,8 +17,8 @@ class Contacto extends Component {
   render() {
     return (
         <div className="row">
-            <div className="col m6 s12 fondo">
-              <div className="contacto">
+            <div className="col m6 s12 fondo z-depth-3">
+              <div className="contacto flow-text">
               <h2>Contacto</h2>
                 <p>Email: email@gmail.com</p>
                 <p>Telefono: 12345678</p>

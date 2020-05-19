@@ -21,6 +21,8 @@
 .hero2 h3 {
     color: white;
     padding-top: 100px;
+    text-shadow: 1px 1px 1px black;
+
 }
 
 .hero2 p {
