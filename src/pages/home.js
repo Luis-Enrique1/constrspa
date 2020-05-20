@@ -5,7 +5,6 @@ import Section from '../components/section/section.js';
 import Section2 from '../components/section2/section2.js';
 import Section3 from '../components/section3/section3.js';
 import Hero from '../components/hero/hero.js'
-import Sidenav from '../components/sidenav/sidenav.js'
 import Footer from '../components/footer/footer.js'
 
 class Home extends Component {
@@ -25,11 +24,10 @@ class Home extends Component {
     return (
       <div>
         <Hero />
-        <Sidenav />
-        {/* <Carousel /> */}
-        <Section />
-        <Section2 />
         <Section3 />
+        {/* <Carousel /> */}
+        <Section2 />
+        <Section />
         <Footer />
         {/* <Section2 /> */}
 

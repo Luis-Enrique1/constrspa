@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Hero2 from '../components/hero2/hero2.js';
 import Footer from '../components/footer/footer.js'
-import Sidenav from '../components/sidenav/sidenav.js'
 
 class About extends Component {
   componentWillMount() {
@@ -18,7 +17,6 @@ class About extends Component {
   render() {
     return (
       <div>
-        <Sidenav />
         <Hero2 />
         <div className="container">
           <h2>Welcome</h2>

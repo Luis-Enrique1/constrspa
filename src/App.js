@@ -3,7 +3,6 @@ import React, { Suspense } from 'react';
 import { Route } from 'react-router-dom';
 import Home from './pages/home.js';
 import './App.css';
-import 'materialize-css/dist/css/materialize.css'
 
 // const Home = React.lazy(() => import('./pages/home.jsx'));
 const Contact = React.lazy(() => import('./pages/contact.js'));
